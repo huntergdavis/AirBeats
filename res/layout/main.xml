@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<FrameLayout android:id="@+id/camera_outside"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_weight="1.0">
+
+
+			<FrameLayout android:id="@+id/camera_preview"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:layout_weight="1.0" />
+
+			<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="wrap_content" android:layout_height="wrap_content">
+				<ImageButton android:layout_width="256px"
+					android:id="@+id/Drum1" android:background="@drawable/drum4"
+					android:layout_x="0px" android:layout_y="300px"
+					android:layout_height="300px" android:visibility="visible"></ImageButton>
+				<ImageButton android:layout_width="256px"
+					android:id="@+id/Drum2" android:background="@drawable/drum5"
+					android:layout_x="256px" android:layout_y="300px"
+					android:layout_height="300px" android:visibility="visible"></ImageButton>
+				<ImageButton android:layout_width="256px"
+					android:layout_x="512px" android:layout_y="300px" android:id="@+id/Drum3"
+					android:background="@drawable/drum6" android:layout_height="300px"
+					android:visibility="visible"></ImageButton>
+				<ImageButton android:layout_width="256px"
+					android:layout_x="768px" android:layout_y="300px" android:id="@+id/Drum4"
+					android:background="@drawable/drum7" android:layout_height="300px"
+					android:visibility="visible"></ImageButton>
+				<ImageButton android:layout_width="256px"
+					android:layout_x="0px" android:layout_y="0px" android:id="@+id/Drum5"
+					android:background="@drawable/cymbal1" android:layout_height="300px"
+					android:visibility="visible"></ImageButton>
+				<ImageButton android:layout_width="256px"
+					android:layout_x="768px" android:layout_y="0px" android:id="@+id/Drum6"
+					android:background="@drawable/cymbal2" android:layout_height="300px"
+					android:visibility="visible"></ImageButton>
+				<ImageButton android:layout_width="60px"
+					android:layout_x="562px" android:layout_y="5px" android:id="@+id/PlayPause"
+					android:background="@drawable/play" android:layout_height="60px"
+					android:visibility="visible"></ImageButton>
+				<ImageButton android:layout_width="60px"
+					android:layout_x="482px" android:layout_y="5px" android:id="@+id/Reset"
+					android:background="@drawable/restart" android:layout_height="60px"
+					android:visibility="visible"></ImageButton>
+				<ImageButton android:layout_width="60px"
+					android:layout_x="402px" android:layout_y="5px" android:id="@+id/BackButton"
+					android:background="@drawable/back" android:layout_height="60px"
+					android:visibility="visible"></ImageButton>
+					
+					
+			</AbsoluteLayout>
+
+
+		</FrameLayout>
+	</LinearLayout>
+
+</LinearLayout>
